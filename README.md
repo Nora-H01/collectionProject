@@ -59,8 +59,6 @@ const collection = [
 ];
 ```
 
-## 🌱 Must haves
-
 ### Translate this into HTML
 
 Create a card for each game using JavaScript to dynamically populate the properties from my collection.
