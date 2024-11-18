@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, rgba(95, 125, 145, 0.8), rgba(60, 100, 120, 0.6));
+    color: #333;
+    padding: 20px;
+}
+
+/*header*/
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/*cards*/
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
+    background-color: #bfc5e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%; 
+    padding-bottom: 16px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+    background-color: #ddd; 
+}
+
+.card-genres {
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.genre-yellow {
+    background-color: #fce356; 
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 0.8rem;
+}
+
+.genre-blue {
+    background-color: #4ca4fc; 
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 8px 16px;
+    text-align: left;
+}
+
+.card-summary {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 8px 16px;
+    line-height: 1.4;
+}
+
+.card-studio,
+.card-release-year {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 4px 16px;
+}
+
+.card-studio {
+    margin-top: 8px;
+}
+
+.card-release-year {
+    margin-top: 4px;
+}
+
+.card-rating {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #222;
+    margin: auto auto 0; 
+    text-align: center;
+    padding-top: 8px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-summary {
+        font-size: 0.8rem;
+    }
+
+    .card-genres span {
+        font-size: 0.75rem;
+    }
+}
