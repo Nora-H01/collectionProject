@@ -139,7 +139,6 @@ header p {
     }
 }
 
-/* Hover effect on card */
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -148,5 +147,4 @@ header p {
     border-radius: 7px;
     transition: background-color 0.3s ease;
   }
-
   
