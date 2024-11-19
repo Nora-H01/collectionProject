@@ -79,4 +79,8 @@ Once that's done, I display your collection in a nice, **responsive** way in my 
 ### Little Bonus
 
 When you move the mouse over a card, it enlarges and a darker background is created.
+<<<<<<< HEAD
 Add a search bar that filters cards by title name.
+=======
+Add a search bar that filters cards by title name.
+>>>>>>> 5541a89125128fbacee0092cde1260ed017962ba
