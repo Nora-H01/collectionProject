@@ -38,7 +38,6 @@ header p {
 .card {
     background-color: #bfc5e2;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -146,6 +145,8 @@ header p {
   }
   
   .collection-grid {
+    border-radius: 7px;
     transition: background-color 0.3s ease;
   }
+
   

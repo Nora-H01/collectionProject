@@ -24,7 +24,7 @@ In this challenge, I've created a collection of video games that I've loved maki
 
 I'll bring the collection to life using JavaScript and make sure it's both functional and responsive for an optimal user experience.
 
-## Step 1: Gathering My Collection
+## Gathering My Collection
 
 My first task is to compile a list (Array) of my favorite video games. Try to include at least 10 games in my collection.
 
@@ -75,3 +75,8 @@ The description.
 Create my own design, using grid and/or bending techniques, and create the corresponding HTML skeleton and css file (no frameworks).
 
 Once that's done, I display your collection in a nice, **responsive** way in my html body.
+
+### Little Bonus
+
+When you move the mouse over a card, it enlarges and a darker background is created.
+Add a search bar that filters cards by title name.
